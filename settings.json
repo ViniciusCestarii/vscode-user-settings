@@ -1,0 +1,27 @@
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "never"
+  },
+  "editor.formatOnSave": false, //editor auto save
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+  "window.zoomLevel": -1,
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname} - Page", //Next.js app
+    "**/pages/**/index.tsx": "${dirname} - Page", //Next.js pages
+  }
+}
