@@ -23,5 +23,6 @@
   "workbench.editor.customLabels.patterns": {
     "**/app/**/page.tsx": "${dirname} - Page", //Next.js app
     "**/pages/**/index.tsx": "${dirname} - Page", //Next.js pages
-  }
+  },
+  "workbench.activityBar.location": "hidden"
 }
